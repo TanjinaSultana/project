@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 .menu{
     background-color: rgba(0, 0, 0, 0.865);
@@ -8,6 +9,10 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    margin: 0 3px 0 3px;
+    border-bottom: 2px solid white;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
 }
 .menubar,ol,li{
     color: white;
@@ -25,11 +30,14 @@ ul,li{
 }
 .banner{
     background-image: linear-gradient(black, gray,tomato);
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    margin: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px palevioletred;
 }
 .btn{
     padding: 10px;
@@ -42,4 +50,24 @@ ul,li{
 .btn:hover{
     background-color: aqua;
     cursor: pointer;
+}
+.card{
+    width: 200px;
+    height: 260px;
+    border: 1px solid gray;
+ background-color: rgb(25, 49, 49);
+    margin: 10px;
+    border-radius: 5%;
+    overflow: hidden;
+    color: antiquewhite;
+    text-align: center;
+    box-shadow: 3px 4px 4px black;
+}
+.title{
+    margin-top: 10px;
+}
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
