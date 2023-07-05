@@ -2,4 +2,24 @@
     margin: 0;
     padding: 0;
 }
-.me
+.menu{
+    background-color: rgba(0, 0, 0, 0.865);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.menubar,ol,li{
+    color: white;
+   list-style: none;
+}
+.menubar,ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul,li{
+    
+    font-size: 25px;
+    margin: 20px;
+}
