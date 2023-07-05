@@ -23,3 +23,23 @@ ul,li{
     font-size: 25px;
     margin: 20px;
 }
+.banner{
+    background-image: linear-gradient(black, gray,tomato);
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: purple;
+    background-color: palevioletred;
+    margin: 20px;
+    margin-left: 120px;
+}
+.btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
