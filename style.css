@@ -51,6 +51,7 @@ ul,li{
     background-color: aqua;
     cursor: pointer;
 }
+/* about section */
 .card{
     width: 200px;
     height: 260px;
@@ -71,3 +72,20 @@ ul,li{
     justify-content: space-around;
     align-items: center;
 }
+ /* footer section */
+ footer{
+    background-image: linear-gradient(black,gray);
+    border-radius: 1%;
+    
+ }
+ .contact{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ }
+ .owner{
+    margin: 20px;
+
+ }
